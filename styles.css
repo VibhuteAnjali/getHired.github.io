@@ -1,0 +1,380 @@
+body,
+html {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  padding: 2rem 3rem 3rem;
+  margin-left: 36rem;
+  font-size: 28px;
+}
+
+nav li {
+  list-style: none;
+  color: #212529;
+  user-select: auto;
+  padding: 2rem;
+  font-family: "ubuntu";
+}
+nav li:hover {
+  text-decoration: overline;
+}
+.logo {
+  margin: 0rem 2rem 1rem 12rem;
+  margin-top: 2rem;
+}
+.page1 {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #212529;
+}
+nav a:hover {
+  text-decoration: none;
+  color: #212529;
+}
+.page1_text {
+  margin: 12rem 19rem;
+  margin-top: 14rem;
+}
+.page1 h1 {
+  font-size: 65px;
+  text-align: center;
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  margin-left: -10rem;
+  margin-right: -7rem;
+  margin-top: -4rem;
+}
+.page1 h3 {
+  font-family: "ubuntu";
+  margin-top: 2rem;
+  font-size: 24px;
+  margin-left: -2rem;
+}
+.page1 img {
+  margin: 1rem 2rem;
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+.btn1 {
+  margin: 3rem 8rem 2rem;
+  width: 9rem;
+  background-color: #212529;
+  height: 4rem;
+  font-size: 2rem;
+  color: white;
+  border-radius: 1rem;
+}
+.btn1:hover {
+  background-color: #343a40;
+  cursor: pointer;
+}
+.page2 {
+  margin-top: 4rem;
+  background-color: #f6f4f1;
+  margin-left: -3rem;
+}
+.page2 h1 {
+  padding-top: 5rem;
+  margin-bottom: 6rem;
+  margin-top: 5rem;
+  font-family: Merriweather, serif;
+}
+.row {
+  display: flex;
+}
+.heading {
+  padding-top: 3rem;
+  margin-top: 0rem;
+}
+.s-img {
+  width: 27rem;
+  margin-bottom: 0rem;
+  margin: 1rem 8rem;
+}
+.title .content {
+  text-align: center;
+}
+
+.title {
+  font-family: Merriweather, serif;
+  text-align: center;
+  margin-top: 0rem;
+  margin-left: 3rem;
+  font-size: 31px;
+}
+
+.content {
+  text-align: center;
+  font-family: "ubuntu";
+  font-size: 21px;
+  margin-left: 7rem;
+  line-height: 2rem;
+}
+
+.col-lg-4:hover {
+  background-color: #98a898;
+  border-radius: 1rem;
+}
+
+.page3 {
+  margin-top: 2rem;
+  background-color: #d2c6c8;
+}
+
+.page3 img {
+  width: 3rem;
+}
+
+.page3 h1 {
+  font-family: Merriweather, serif;
+}
+.carousel-item img {
+  width: 15rem !important;
+  border-radius: 8rem;
+  margin: 3rem 51rem;
+}
+.carousel-item h5 {
+  font-family: Merriweather, serif;
+  margin-left: -1rem;
+  margin: 3rem;
+  text-align: center;
+  user-select: auto;
+  font-size: 28px;
+}
+.carousel-item p {
+  font-family: "ubuntu";
+  text-align: center;
+  font-size: 25px;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+.page4 {
+  display: flex;
+}
+.page4 img {
+  margin: 6rem 14rem;
+  width: 30rem;
+}
+.page4 h1 {
+  font-family: Merriweather, serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-basis: min-content;
+  margin-top: 11rem;
+  width: 28rem;
+  padding: 1rem;
+}
+form h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+.page4 input {
+  border-radius: 1rem;
+  font-family: "ubuntu";
+  padding: 1rem;
+  margin: 0.3rem;
+}
+.btn2 {
+  font-family: "ubuntu";
+  margin: 2rem 8rem;
+  width: 8rem;
+  background-color: #212529;
+  height: 3rem;
+  color: white;
+  border-radius: 1rem;
+}
+.btn2:hover {
+  background-color: #343a40;
+  cursor: pointer;
+}
+.bottom {
+  display: flex;
+  margin: 3rem;
+  margin-left: 39rem;
+}
+footer {
+  background-color: black;
+  height: 14rem;
+}
+footer h4 {
+  font-family: "ubuntu";
+  color: white;
+  text-align: center;
+  font-weight: 100 !important;
+}
+.social-media {
+  font-size: 1.7rem;
+  text-align: center;
+  color: white;
+}
+footer i {
+  padding: 1rem;
+}
+footer li {
+  width: 6rem;
+  margin-top: 3rem;
+  list-style: none;
+  border: 1px solid white;
+  color: white;
+  margin-left: 6rem;
+  text-align: center;
+  height: 2rem;
+}
+footer li:hover {
+  background-color: rgb(202, 175, 143);
+  color: white;
+}
+footer a {
+  color: white;
+  font-size: 17px;
+}
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+}
+
+.icon {
+  margin: -33rem;
+}
+.search {
+  height: 3rem;
+  border-radius: 1rem;
+  margin: 2rem 30rem;
+  width: 33rem;
+  margin-top: 0rem;
+}
+.filter-box {
+  margin: 1rem 28rem;
+  margin-top: -1rem;
+}
+select {
+  border-radius: 0.7rem;
+  text-align: center;
+  font-family: "ubuntu";
+}
+
+.filter-select:hover {
+  background-color: #6c757d;
+}
+option {
+  background-color: white;
+}
+
+.heading h2 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 5rem;
+}
+.heading span {
+  margin: 3rem 0rem;
+  font-size: 1rem;
+  font-family: "ubuntu";
+}
+
+/* -------Jobs.html */
+.top {
+  display: flex;
+}
+
+.top h1 {
+  font-size: 65px;
+  margin-top: 13rem;
+  margin-left: 16rem;
+  font-weight: bold;
+  font-family: Merriweather, serif;
+}
+.top span {
+  margin-left: 3rem;
+}
+.text h3 {
+  font-size: 28px;
+  margin-left: 27rem;
+  margin-top: 3rem;
+  font-family: "ubuntu";
+}
+.libraryImg {
+  margin-left: 5rem;
+  height: 34rem;
+}
+
+.heading-text {
+  margin-bottom: 4rem;
+  font-family: Merriweather, serif;
+  margin-top: 12rem;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card-body {
+  background-color: antiquewhite;
+  font-family: ubuntu;
+  font-size: 20px;
+  height: 20rem;
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+.card{
+	position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(255 255 255 / 13%);
+    border-radius: .25rem;
+}
+
+.box {
+  box-shadow: 11px 8px 12px 1px;
+}
+.card-title {
+	font-size: 2.25rem;
+	padding: 0.5rem 0.5rem;
+	font-family: Merriweather, serif;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border-color: #212529;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.card-body:hover {
+  height: 23rem;
+  background-color: #343a40;
+  color: white;
+}
+.Title {
+	font-size: 2rem;
+	padding: 1rem 1rem;
+}
+#page2Ul {
+  margin-left: 44rem;
+}
+.card2 {
+  height: 22rem;
+}
